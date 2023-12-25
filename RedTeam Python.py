@@ -6,6 +6,9 @@ import sys
 import optparse
 import scapy.all as scapy
 import subprocess
+
+
+
 global host
 global No_of_sockets
 
