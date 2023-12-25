@@ -67,7 +67,7 @@ def copyright_banner():
 def copyright_banner2():
     print("#------------------------------------------#")
     print(f"#          RedTeam Python v1.0            #")
-    print("#            Created by Mohammad           #")
+    print("#            Created by MUTeam             #")
     print("#              GitHub Repository:          #")
     print("#https://github.com/AsoMoe/Red-Team-Python #")
     print("#------------------------------------------#")
